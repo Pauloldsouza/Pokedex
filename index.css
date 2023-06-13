@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(95, 90, 90);
+}
+
+main {
+  border: 3px black solid;
+  box-shadow: 4pt 4pt 4pt black;
+  background-color: darkred;
+  width: 90%;
+  height: 90vh;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+  gap: 2rem;
+}
+#border {
+  background-color: white;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+#pearl {
+  background-color: rgb(42, 28, 189);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#shine {
+  background-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border-right: 4.3px solid white;
+  rotate: -20deg;
+}
+
+#picture {
+  width: 95%;
+  height: 45%;
+  background-color: white;
+  border: 4px groove black;
+  box-shadow: -2pt -2pt 2pt;
+}
+
+#description {
+  background-color: rgb(76, 140, 189);
+  width: 80%;
+  height: 15%;
+  border: 3px double rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: start;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.seta {
+  width: 3rem;
+  height: 1.5rem;
+  background-color: lightblue;
+  box-shadow: 2pt 2pt 2pt;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
